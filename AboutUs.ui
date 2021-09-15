@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>621</width>
+    <height>411</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>AboutUs</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>621</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>630</width>
+     <height>411</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+image: url(:/image/register.jpg);
+}
+
+QPushButton#CloseButton{
+	background-color: qlineargradient(spread:pad, x1:0.097, y1:0.448864, x2:0.631, y2:0.409091, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+
+	color:rgba(255,255,255,210);
+    border-radius:5px;
+}
+QPushButton#CloseButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0.097, y1:0.448864, x2:0.631, y2:0.409091, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#CloseButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123,111,255);
+}
+
+
+
+
+QPushButton#CloseButton_2{
+	background-color:rgba(0,0,0,0);
+	color:rgba(85,98,112,255);
+}
+QPushButton#CloseButton_2:hover{
+	color:rgba(131,96,53,255);
+}
+QPushButton#CloseButton_2:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	color:rgba(91,88,53,255);
+}
+</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Constantia</family>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>About Us</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>-3</y>
+      <width>611</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,70)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>561</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>HELLO!
+I AM SHUBHAM FROM INDIA, I AM WORKINING WITH VARIUOS
+GUI APPLICATIONS, WEB DEVELOPMENT, AND AI SYSTEM. 
+IN THIS PROJECT I AM DEVELOPED A SIMPLE LIBRARY MANAGEMENT
+SYSTEM USING PYTHON AND SQLITE (DATABASE)
+                                                                                  DATE : 12/07/2021
+                                                                                  VERSION : 8.0
+                                                                                  Ph:+91 7769038180</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>340</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>E-mail : shubhamlohar952@gmail.com</string>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../SQLite/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
